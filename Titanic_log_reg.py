@@ -39,3 +39,5 @@ accuracy = accuracy_score(y_test, y_pred)
 
 prediction = pd.DataFrame({'PassengerId': test_res['PassengerId'], 'Survived': y_pred})
 prediction.to_csv('predict.csv', index=False)
+
+#This yelds a 0.75837 points on kaggle
